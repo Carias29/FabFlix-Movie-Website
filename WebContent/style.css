@@ -1,0 +1,157 @@
+h1, h2, h3 {
+    color: ghostwhite;
+    text-align: center;
+}
+
+p {
+    color: ghostwhite;
+    text-align: inherit;
+}
+
+body {
+    background-color: darkgreen;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+td, th, label, form {
+    color: ghostwhite;
+}
+
+a {
+    color: skyblue;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+ul.top-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0a1c02;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+ul.top-nav li {
+    float: left;
+}
+
+ul.top-nav li a {
+    display: block;
+    color: ghostwhite;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.top-nav li a.active {
+    background-color: #008f3a;
+}
+
+.main-page-content {
+    margin-top: 60px;
+    padding-bottom: 50px;
+}
+
+.login-form {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    min-height: 50%;
+    max-height: 80%;
+}
+
+.login-form-text, .login-form-error-message {
+    font-size: 40px;
+    color: ghostwhite;
+    text-align: center;
+    justify-content: center;
+}
+
+.login-form-error-message {
+    font-size: 20px;
+    justify-content: normal;
+}
+
+#genres_grid.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+}
+
+#titles_grid.grid-container {
+    display: grid;
+    grid-template-columns: repeat(10, auto);
+}
+
+.grid-item {
+    text-align: center;
+    place-items: center;
+}
+
+.back-btn {
+    text-align: left;
+    padding-left: 10px;
+    float: left;
+}
+
+.add-to-cart-btn {
+    background-color: white;
+    float: right;
+}
+
+.add-to-cart-btn:hover {
+    background-color: lightgrey;
+}
+
+.pagination {
+    color: ghostwhite;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+}
+
+.metadata-table {
+    text-align: center;
+}
+
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto; }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
+.autocomplete-group { padding: 2px 5px; }
+.autocomplete-group strong { display: block; border-bottom: 1px solid #000; }
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.autocomplete-searchbox {
+	height: 50px;
+	width: 80%;
+}
+
+.search-button {
+    margin-left: 20px;
+}
+
+#success-message, #error-message, #new-movie-id, #new-star-id, #new-genre-id {
+    text-align: center;
+    color: ghostwhite;
+}

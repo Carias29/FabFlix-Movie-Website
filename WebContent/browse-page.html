@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Our CSS file -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Browse Movies</title>
+</head>
+<body>
+
+<ul class="top-nav">
+    <li><a href="index.html">Home Page</a></li>
+    <li><a href="search-page.html">Search Page</a></li>
+    <li><a href="browse-page.html" class="active">Browse Page</a></li>
+    <li><a href="shopping-cart.html" class="checkout-btn">Proceed to Checkout</a></li>
+</ul>
+
+<div class="main-page-content">
+
+<h3>Browse By Genres</h3>
+<div id="genres_grid" class="grid-container"></div>
+
+<h3>Browse By Titles</h3>
+<div id="titles_grid" class="grid-container"></div>
+
+</div>
+
+<!-- Load jQuery and Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<!-- Load session data JS file -->
+<script src="session-data.js"></script>
+<script src="browse-page.js"></script>
+
+</body>
+
+</html>
